@@ -5,7 +5,7 @@ key-123456
 passpharse-123456
 123456
 
-ssh server mkdir -p .ssh
+ssh server2 mkdir -p .ssh
 vagrant
 
 cat .ssh/id_rsa .pub | ssh server2 'cat >> .ssh/authorized_keys'
